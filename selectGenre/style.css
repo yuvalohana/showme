@@ -1,0 +1,31 @@
+h1{
+    color: rgb(21, 21, 34);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.flex-container {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(201, 201, 201);
+    justify-content:  center;
+
+  }
+  body{
+      background-color: rgb(201, 201, 201);
+  }
+  
+  .flex-container > button {
+    background-image: url("https://images.pexels.com/photos/167636/pexels-photo-167636.jpeg?auto=compress&cs=tinysrgb&h=350");
+    width: 100px;
+    height: 220px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border-radius: 8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width:18%;
+    text-align:center;
+    
+
+}

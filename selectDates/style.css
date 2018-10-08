@@ -1,0 +1,39 @@
+
+fieldset{
+    background-color: rgb(105, 105, 112);
+    height: 100%;
+    width: 100%
+}
+h1 {
+    color: #fff;
+}
+
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .4rem;
+}
+
+label {
+    display: inline-block;
+    text-align: right;
+    width: 30%;
+border-radius: 8px;
+}
+form{
+    margin-left: 570px;
+    margin-top: 50px;
+}
+button{
+    margin-left: 320px;
+}
+.start{
+    margin-left: 250px;
+}
+.end{
+    margin-left: 250px;
+    height: 20px;
+    border-radius: 6px;
+}

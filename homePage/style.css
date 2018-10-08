@@ -1,0 +1,41 @@
+body{
+    background-image: url("https://www.billboard.com/files/styles/900_wide/public/media/04-Shawn-Mendes-tour-2017-press-billboard-1548.jpg");
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    filter: alpha(opacity=50); 
+    background-attachment: fixed;
+    background-position: center;
+
+}
+#h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: pink
+}
+#input1{
+    margin-top: 20px;
+    margin-bottom:20px;
+        -moz-box-shadow:    3px 3px 5px 6px rgb(54, 50, 50);
+        -webkit-box-shadow: 3px 3px 5px 6px rgb(54, 50, 50);
+        box-shadow:         3px 3px 5px 6px rgb(54, 50, 50);
+    border-radius: 7px;
+    width: 250px;
+    height: 40px;
+}
+
+#input2{
+    margin-bottom:20px;
+    -moz-box-shadow:    3px 3px 5px 6px rgb(54, 50, 50);
+    -webkit-box-shadow: 3px 3px 5px 6px rgb(54, 50, 50);
+    box-shadow:         3px 3px 5px 6px rgb(54, 50, 50);
+    border-radius: 7px;
+    width: 250px;
+    height: 40px;
+}
+
+
+#submit{
+    margin-top:20px;
+}

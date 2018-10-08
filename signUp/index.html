@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <div class="body">
+    <form class="form1">
+        <h1 id ="h1" class="text-center">SIGN UP TO</h1>
+        <h3 id ="h1" class="text-center">SELECT YOUR SHOW</h3>
+
+        <div id="demo"></div>
+        <div>
+            <input id="input1"class="center-block" class="username-input" type="text" name="Enter username" placeholder="username">
+            <input id="input2"class="center-block" class="password-input" type="text" name="Enter password" placeholder="password">
+            <input id="input2"class="center-block" class="email-input" type="text" name="Enter email" placeholder="email">
+            <input id="input2"class="center-block" class="age-input" type="text" name="Enter age" placeholder="age">
+            <input id="input2"class="center-block" class="county-input" type="text" name="Enter county" placeholder="county">
+
+            
+            <button id="submit" type="button" class="btn btn-outline-danger center-block">SIGN UP</button>
+
+            <div id="detailsContainer"></div>
+
+            </div>
+    </form>
+    <script id="details-template" type="text/x-handlebars-template">
+        <ul>
+                <li>{{username}}</li>
+                <li>{{password}}</li>
+                <li>{{email}}</li>
+                <li>{{age}}</li>
+                <li>{{country}}</li>
+
+        </ul>
+        
+        <script src="handlebars\dist\handlebars.min.js"></script>
+    <script src="jquery\dist\jquery.js"></script>
+    <script src="main.js" type="module"></script>
+
+</body>
+
+</html>

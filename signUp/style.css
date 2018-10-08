@@ -1,0 +1,14 @@
+body {
+    background-color: gray;
+}
+
+.center-block{
+    margin-top: 20px;
+    margin-bottom:20px;
+        -moz-box-shadow:    3px 3px 5px 4px rgb(54, 50, 50);
+        -webkit-box-shadow: 3px 3px 5px 4px rgb(54, 50, 50);
+        box-shadow:         3px 3px 5px 4px rgb(54, 50, 50);
+    border-radius: 4px;
+    width: 250px;
+    height: 40px;
+}
